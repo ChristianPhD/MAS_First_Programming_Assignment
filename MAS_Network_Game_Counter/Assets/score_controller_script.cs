@@ -20,7 +20,8 @@ public class score_controller_script : MonoBehaviour
         //keep local_score and global_score in sync
     }
 
-    public void increase_global_score()
+    //public function used to increase local score by 1
+    public void increase_local_score()
     {
         local_score++;
     }
