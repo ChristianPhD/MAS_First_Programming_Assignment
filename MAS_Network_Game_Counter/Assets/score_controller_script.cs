@@ -17,12 +17,15 @@ public class score_controller_script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //keep local_score and global_score in sync
+        //continually pull global score from AWS and put it into local score
     }
 
     //public function used to increase local score by 1
     public void increase_local_score()
     {
+        //increase local score
         local_score++;
+
+        //update global score to local score
     }
 }
